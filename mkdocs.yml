@@ -6,7 +6,9 @@ theme:
   name: material
   logo: assets/logo.png
   favicon: assets/logo_round.png
+  custom_dir: overrides
 
 plugins:
   - search
-  - blog
+  - blog:
+      archive_name: Year Publish
