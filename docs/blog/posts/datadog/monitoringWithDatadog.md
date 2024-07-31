@@ -5,13 +5,18 @@ comments: true
 categories:
   - Datadog
   - Monitoring
+theme:
+  features:
+    - toc.integrate
 ---
 
-# Monitoring with Datadog - Vuong Bach
+# Monitoring with Datadog
 
-![AWS Cloud Club Logo](assets/datadog/1.png)
+![AWS Cloud Club Logo](assets/images/datadog/1.png)
 
-## Overview
+<!-- material/tags { toc: true } -->
+
+## Introduction
 - **Goal:** Monitoring with Datadog
 - **Duration:** 15 Jul 2024 - 19 Jul 2024
 - **Training Type:** Offline / Online, Self-paced
@@ -20,23 +25,6 @@ categories:
 - **Prerequisites:** None
 
 <!-- more -->
-
----
-
-## 📋 Table of Contents
-1. [Overview About Monitoring](#overview-about-monitoring)
-2. [What Will We Monitor?](#what-will-we-monitor)
-   - WORK METRICS
-   - RESOURCE METRICS
-   - EVENTS
-3. [Introducing Graphs](#introducing-graphs)
-   - TIMESERIES
-   - SUMMARY GRAPHS
-4. [Demo](#demo)
-   - Monitoring EC2 Server
-   - Monitoring Kubernetes Cluster
-   - Monitoring Lambda Function
-5. [Custom Metrics and Tags](#custom-metrics-and-tags)
 
 ---
 
@@ -99,11 +87,11 @@ Line graphs visualize metric data, useful for:
 2. **Add the Layer to your Lambda Function:** Configure in AWS Management Console.
 3. **Datadog Integration and Monitoring:** Ensure Datadog access and start monitoring.
 
----
-
 ## 🏷️ Custom Metrics and Tags
 Custom metrics and tagging allow for extended monitoring capabilities:
-- **Defining and Sending Custom Metrics:** Tailor Datadog monitoring to specific needs.
-- **Using Tags:** Effectively categorize and filter metrics.
-- **Creating Tailored Dashboards and Alerts:** Utilize custom metrics and tags for personalized monitoring setups.
 
+- **Defining and Sending Custom Metrics:** Tailor Datadog monitoring to specific needs.
+
+- **Using Tags:** Effectively categorize and filter metrics.
+
+- **Creating Tailored Dashboards and Alerts:** Utilize custom metrics and tags for personalized monitoring setups.

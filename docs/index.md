@@ -1,6 +1,6 @@
 # Welcome to the **AWS Cloud Club**
 
-![AWS Cloud Club Logo](assets/cover.png)
+![AWS Cloud Club Banner](assets/images/cover.png)
 
 Welcome to the AWS Cloud Club! We are thrilled to have you join our community of cloud enthusiasts, professionals, and learners. Our club is dedicated to exploring and mastering the vast ecosystem of Amazon Web Services (AWS), from foundational services to cutting-edge cloud technologies.
 
