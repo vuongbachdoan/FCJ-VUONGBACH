@@ -12,7 +12,7 @@ theme:
 
 # Monitoring with Datadog
 
-![AWS Cloud Club Logo](assets/images/datadog/1.png)
+<!-- ![AWS Cloud Club Logo](assets/images/datadog/1.png) -->
 
 <!-- material/tags { toc: true } -->
 
