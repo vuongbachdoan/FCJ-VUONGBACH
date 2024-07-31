@@ -1,10 +1,11 @@
-site_name: AWS BLOG
-site_description: an example blog set up following the tutorial
-site_url: http://www.example.com
+site_name:  'AWS Cloud Club'
+site_description: AWS Cloud Club
+site_url: https://www.awscloudclub.site
 
 theme:
   name: material
-  logo: assets/aws_logo.png
+  logo: assets/logo.png
+  favicon: assets/logo_round.png
 
 plugins:
   - search
