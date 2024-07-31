@@ -7,8 +7,11 @@ theme:
   logo: assets/logo.png
   favicon: assets/logo_round.png
   custom_dir: overrides
+  features:
+    - toc.integrate
 
 plugins:
   - search
   - blog:
-      archive_name: Year Publish
+      archive: false
+      pagination_keep_content: false

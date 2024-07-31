@@ -2,11 +2,14 @@
 date:
   created: 2023-12-30
 comments: true
+categories:
+  - Datadog
+  - Monitoring
 ---
 
 # Monitoring with Datadog - Vuong Bach
 
-![AWS Cloud Club Logo](../../assets/datadog/1.png)
+![AWS Cloud Club Logo](assets/datadog/1.png)
 
 ## Overview
 - **Goal:** Monitoring with Datadog
@@ -15,6 +18,8 @@ comments: true
 - **Target Audience:** Individuals interested in using Datadog for system monitoring
 - **Complexity:** Beginner
 - **Prerequisites:** None
+
+<!-- more -->
 
 ---
 
