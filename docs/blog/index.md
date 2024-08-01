@@ -1,1 +1,2 @@
-# All Contents
+# Blog
+

@@ -1,5 +1,5 @@
-site_name: ''
-site_description: AWS Cloud Club
+site_name: AWS Cloud Club
+site_description: Your Cloud Community
 site_url: https://www.awscloudclub.site
 
 theme:
@@ -22,6 +22,7 @@ theme:
 
 plugins:
   - search
+
   - blog:
       archive: false
       pagination_keep_content: false
@@ -31,4 +32,22 @@ plugins:
 markdown_extensions:
   - toc:
       permalink: true
-      toc_depth: 3  # Adjust this as needed to control the depth of TOC entries
+      toc_depth: 3
+
+# extra:
+#   alternate:
+#     - name: English
+#       link: /en/
+#       lang: en
+#     - name: Việt Nam
+#       link: /vi/
+#       lang: vi
+
+
+nav:
+  - Home: index.md
+  - Blog:
+      - kafka:
+        - Kafka Monitoring: posts/kafka/kafkaMonitoring.md
+      - datadog:
+        - Monitoring With Datadog: posts/datadog/monitoringWithDatadog.md
